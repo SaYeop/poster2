@@ -1,0 +1,96 @@
+
+
+
+.G2 {
+  width: 15%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+
+  animation-name: G2;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+animation-iteration-count:1;
+}
+.G3 {
+  width: 15%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+
+  animation-name: G3;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+animation-iteration-count: 1;
+}
+
+.bule {
+  width: 0%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  animation-name: bule;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+animation-iteration-count: 1;
+}
+
+.text {
+  width: 90%;
+  height: 10%;
+  background-color: #000000;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+}
+.T1 {
+	font-size: 100%;
+    font-family: helvetica;
+    color: white;
+    text-align: center;
+}
+.T2 {
+	font-size: 120%;
+    font-family: helvetica;
+    color: white;
+    text-align: center;
+}
+@-webkit-keyframes G2 {
+  0% {
+     
+  }
+  100%{
+      transform: translateX(-200%);
+  }
+}
+@-webkit-keyframes G3 {
+  0% {
+     
+  }
+  100%{
+      
+      transform: translateX(200%);
+  }
+}
+
+@-webkit-keyframes bule {
+  0% {
+     width: 0%;
+  }
+  100%{
+      
+      width: 60%;
+  }
+
+}
